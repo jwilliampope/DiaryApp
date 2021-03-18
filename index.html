@@ -12,11 +12,13 @@
   <body>
     <h1 class="title">My Personal Diary</h1>
     <form action="#" id="entryForm" method="POST">
-      <textarea class="entry-textbox" placeholder="Click and type!"></textarea><br />
+      <textarea class="entry-textbox" required placeholder="Click and type!"></textarea><br />
       <button class="button" type="submit">Submit</button>
     </form>
 
-    <section id="entries"></section>
+    <section id="entries">
+      <div class="entries-nav"></div>
+    </section>
 
     <script src="js/main.js"></script>
   </body>

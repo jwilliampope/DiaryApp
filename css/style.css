@@ -25,17 +25,31 @@ body {
   outline: none;
 }
 
-/*
-- Go over to the index.html file and give the button a class of "button"
-- Back in the index.css file, target the button using its class
-- Give the button rounded edges using the border-radius property
-- Use the padding property to add space between the button's text and its edges
-- move the button to the right of the page
-*/
-
 #entryForm .button {
   border: unset;
   border-radius: 25px;
   padding: 5px 16px;
   margin-left: 76%;
+}
+
+#entries {
+  background-color: #16697a;
+  border-radius: 5px;
+  color: #ede7e3;
+  font-family: cursive;
+  max-width: 20em;
+  margin-top: 1em;
+  padding: 2em;
+}
+
+.entries-nav {
+  padding-bottom: 1em;
+}
+
+.display-entry-button {
+  margin: 0.2em;
+}
+
+.display-entry-button:hover {
+  cursor: pointer;
 }
