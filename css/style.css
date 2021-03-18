@@ -1,0 +1,41 @@
+body {
+  margin: 5%;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  justify-content: center;
+}
+
+.title {
+  color: #16697a;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.entry-textbox {
+  background-color: #ddd;
+  width: 20em;
+  height: 10em;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  border: unset;
+  border-radius: 25px;
+}
+
+.entry-textbox:focus {
+  outline: none;
+}
+
+/*
+- Go over to the index.html file and give the button a class of "button"
+- Back in the index.css file, target the button using its class
+- Give the button rounded edges using the border-radius property
+- Use the padding property to add space between the button's text and its edges
+- move the button to the right of the page
+*/
+
+#entryForm .button {
+  border: unset;
+  border-radius: 25px;
+  padding: 5px 16px;
+  margin-left: 76%;
+}
